@@ -8,7 +8,7 @@ The repository is sectioned into segments, each segment contains problem solving
 
 ## Installation
 
-1. Clone and install dependencies
+#### 1. Clone and install dependencies
 
 ```sh
 git clone https://github.com/ZaibKhan0/JS-Problem-Solving.git
@@ -21,7 +21,7 @@ cd JS-Problem-Solving && bun i
 npm i -g bun
 ```
 
-2. Unit testing
+#### 2. Unit testing
 
 ```sh
 bun test
