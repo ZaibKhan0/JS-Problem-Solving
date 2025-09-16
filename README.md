@@ -1,15 +1,32 @@
-# javascript
+# Javascript Problem Solving
 
-To install dependencies:
+A repository where I would practice and upload problem solving solutions ranging from easy to complex with Test-Driven Development methodology.
 
-```bash
-bun install
+## Overview
+
+The repository is sectioned into segments, each segment contains problem solving questions from a unique learning resource that I am exploring.
+
+## Installation
+
+1. Clone and install dependencies
+
+```sh
+git clone https://github.com/ZaibKhan0/JS-Problem-Solving.git
+cd JS-Problem-Solving && bun i
 ```
 
-To run:
+**NOTE**: You can install bun with following command:
 
-```bash
-bun run index.ts
+```sh
+npm i -g bun
 ```
 
-This project was created using `bun init` in bun v1.2.13. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+2. Unit testing
+
+```sh
+bun test
+
+# or
+
+bun test --watch
+```
