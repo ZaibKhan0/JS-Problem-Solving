@@ -31,7 +31,10 @@ describe("addNums", () => {
     })
     
     it("should handle more than two arguments", () => {
-        const result = addNums(1, 2, 3, 4, 5);
-        expect(result).toBe(15);
+        const nums = [...Array(1101).keys()].map(n => n - 100);
+        const sum = nums.reduce((prev, curr) => prev + curr, 0);
+
+        const result = addNums(...nums);
+        expect(result).toBe(sum);
     })
 })
